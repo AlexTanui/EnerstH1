@@ -1,6 +1,14 @@
 
-        // const intro= document.getElementById('intro').style.display = "none";
-        // const display= document.getElementById('music').style.display = "none";
+        const intro= document.getElementById('sign-in').style.display = "block";
+        const display= document.getElementById('main').style.display = "none";
+        const loginbtn= document.getElementById('loginbtn')
+        
+        // funtion to dispay main when log-in btn is clicked
+        function displayMain(){
+            document.getElementById('main').style.display = "block";
+            document.getElementById('sign-in').style.display = "none";
+        }
+      
         const APIController = (function() {
     
             const clientId = 'ADD YOUR CLIENT ID';
